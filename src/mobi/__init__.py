@@ -21,6 +21,8 @@ from mobi.station_data import (
     fetch_station_status_from_gbfs,
 )
 
+from mobi.basic_site_scraper import BasicSiteScraper
+
 __version__ = "0.1.0"
 
 __all__ = [
@@ -35,4 +37,5 @@ __all__ = [
     "StationDataError",
     "fetch_station_info_from_gbfs",
     "fetch_station_status_from_gbfs",
+    "BasicSiteScraper",
 ]
